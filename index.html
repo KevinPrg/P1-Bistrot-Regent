@@ -168,10 +168,10 @@
     <!-- END SECTION -->
 
     <!-- START form -->
-    <div class='divpopup'>
+    <div class='divpopup' id='divpopup'>
         <div class='popup'>
             <p>Votre demande as bien été pris en compte</p>
-            <button id="close-popup">merci !</button>
+            <button class="close-popup" id="close-popup" onclick=closePop()>merci !</button>
         </div>
     </div>
             <form id ="contact">
@@ -187,7 +187,7 @@
                 </select>
                 <label for="message">Message : </label>
                 <textarea name="message" id="message" placeholder="Votre message ici..."></textarea>
-                <button type="button" id="formbutton" onclick=name()>Envoyer</button>
+                <button type="button" id="formbutton" onclick=popup()>Envoyer</button>
             </form>
         
 

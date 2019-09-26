@@ -58,6 +58,9 @@ function hiddenMenu(){
     hiddenMenu();
 
 function popup(){
-  const name = document.getElementById('name');
+  document.getElementById('divpopup').style.display = "flex";
+}
 
+function closePop(){
+  document.getElementById('divpopup').style.display = "none";
 }
