@@ -532,6 +532,20 @@ h1{
     font-size: 5em;
 }
 
+.popup{
+    width: 30%;
+    height: 100%;
+    position: relative;
+    top: 550%;
+    left: 35%;
+    background-color: black;
+    color: white;
+}
+
+.divpopup{
+    height: 70px;
+}
+
 @media screen and (max-width: 961px){
     .mobile_menu{
         display: none;

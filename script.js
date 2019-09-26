@@ -56,3 +56,8 @@ function hiddenMenu(){
         }
     }
     hiddenMenu();
+
+function popup(){
+  const name = document.getElementById('name');
+
+}
