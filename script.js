@@ -64,3 +64,12 @@ function popup(){
 function closePop(){
   document.getElementById('divpopup').style.display = "none";
 }
+
+let nbScroll = 0
+function scroll(10){
+  document.getElementById("menu-fixed").innerHTML = nbScroll += 1;
+
+  if (nbScroll > 50){
+    document.getElementById("menu-fixed").style.display = "none";
+  }
+}

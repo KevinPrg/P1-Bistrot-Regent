@@ -13,11 +13,11 @@
         <link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet"> 
     </head>
 
-    <body>
+    <body onscroll=scroll() id="menu-fixed">
 
     <!-- START navbar -->
     
-    <nav class="menu">
+    <nav class="menu" onscroll=scroll() id="menu-fixed">
         <h1><a class="titre" href="#">Bistro Régent</a></h1>
         <ul class="active"> 
             <li class="list1"><a href="#who">Qui sommes nous ?</a></li>
@@ -170,7 +170,7 @@
     <!-- START form -->
     <div class='divpopup' id='divpopup'>
         <div class='popup'>
-            <p>Votre demande as bien été pris en compte</p>
+            <p>Votre demande as bien été prise en compte.</p>
             <button class="close-popup" id="close-popup" onclick=closePop()>merci !</button>
         </div>
     </div>
